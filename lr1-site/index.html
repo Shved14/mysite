@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="http://127.0.0.1:5500/lr1-site/index.html" />
+    <title>Сторублевцев Артём Александрович — Лабораторная работа №1 — Главная</title>
+    <meta name="description"
+        content="ЛР №1: Персональный сайт-резюме студента РГРТУ ФВТ-345. Главная страница с кратким описанием и навигацией." />
+    <meta property="og:title" content="Сторублевцев Артём Александрович — ЛР №1 — Главная" />
+    <meta property="og:description" content="Персональный сайт студента: кратко обо мне, навигация, контакты." />
+    <meta name="theme-color" content="#0a84ff" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="fade-in">
+    <a class="skip-link" href="#main">Перейти к основному содержимому</a>
+
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="На главную">
+                <img src="assets/logo.png" alt="Логотип" width="36" height="36"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns='\''http://www.w3.org/2000/svg'\'' width='\''36'\'' height='\''36'\''><rect width='\''100%25'\'' height='\''100%25'\'' fill='\'%230a84ff\''/><text x='\''50%25'\'' y='\''50%25'\'' dominant-baseline='\''middle\'' text-anchor='\''middle\'' font-size='\''10\'' fill='\'black\''>LOGO</text></svg>'" />
+                <span>Сторублевцев Артём Александрович</span>
+            </a>
+
+            <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Меню">
+                <span class="menu-icon" aria-hidden="true"></span>
+            </button>
+
+            <nav id="site-nav" class="site-nav" role="navigation" aria-label="Основная навигация">
+                <ul>
+                    <li><a class="active" href="index.html">Главная</a></li>
+                    <li><a href="about.html">Обо мне</a></li>
+                    <li><a href="studies.html">Учёба</a></li>
+                    <li><a href="hobbies.html">Увлечения</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="site-main" tabindex="-1">
+        <section class="hero" aria-label="Вступительный баннер">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Сторублевцев Артём Александрович</h1>
+                    <p class="subtitle">Будущий программный инженер · РГРТУ, группа ФВТ-345</p>
+                    <p>
+                        Это учебный сайт для «Лабораторной работы №1». Здесь вы найдёте краткую
+                        информацию обо мне, об учёбе, проектах, увлечениях и способах связи.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn" href="about.html">Узнать больше</a>
+                        <a class="btn btn-secondary" href="#sections">Секции ниже</a>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <!-- Замените файл фото на свой в каталоге assets/ -->
+                    <img src="http://127.0.0.1:5500/assets/photo.jpg"
+                        alt="Фотография студента Сторублевцев Артём Александрович"
+                        onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns='\''http://www.w3.org/2000/svg'\'' width='\''260'\'' height='\''260'\'' viewBox='\''0 0 260 260'\''><rect width='\''100%25'\'' height='\''100%25'\'' fill='\'%2314243a\''/><text x='\''50%25'\'' y='\''50%25'\'' dominant-baseline='\''middle\'' text-anchor='\''middle\'' font-size='\''24\'' fill='\'%23cfe6ff\''>PHOTO</text></svg>'" />
+                </div>
+            </div>
+        </section>
+
+        <section id="sections" class="cards container" aria-label="Быстрые ссылки">
+            <article class="card">
+                <h2>Обо мне</h2>
+                <p>ВУЗ: РГРТУ. Факультет/направление: Информатика и вычислительная техника. Группа: ФВТ-345.</p>
+                <a class="card-link" href="about.html" aria-label="Перейти на страницу обо мне">Подробнее</a>
+            </article>
+            <article class="card">
+                <h2>Учёба и проекты</h2>
+                <p>Список дисциплин, текущие достижения и примеры учебных проектов.</p>
+                <a class="card-link" href="studies.html" aria-label="Перейти на страницу учёбы">Подробнее</a>
+            </article>
+            <article class="card">
+                <h2>Увлечения</h2>
+                <p>Футбол, фотография, музыка — краткие заметки и карточки увлечений.</p>
+                <a class="card-link" href="hobbies.html" aria-label="Перейти на страницу увлечений">Подробнее</a>
+            </article>
+            <article class="card">
+                <h2>Контакты</h2>
+                <p>E-mail: <a href="mailto:azazvevip6@gmail.com">azazvevip6@gmail.com</a>, соцсети и форма
+                    обратной связи.</p>
+                <a class="card-link" href="contacts.html" aria-label="Перейти на страницу контактов">Подробнее</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Сторублевцев Артём Александрович · ЛР №1</p>
+            <a class="to-top" href="#top">Наверх</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+<!-- Подсказки по редактированию:
+    - Имя и данные студента меняются в заголовке и тексте hero.
+    - Фото замените в файле assets/photo.jpg.
+    - Навигацию и ссылки правьте в header/nav.
+  -->
+
+</html>
