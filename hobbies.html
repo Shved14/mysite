@@ -1,0 +1,98 @@
+<!doctype html> <!-- Объявление HTML5 -->
+<html lang="ru"> <!-- Язык страницы: русский -->
+
+<head> <!-- Метаданные и подключения -->
+    <meta charset="utf-8" /> <!-- Кодировка документа -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Адаптивность -->
+    <link rel="canonical" href="http://127.0.0.1:5500/lr1-site/hobbies.html" /> <!-- Канонический URL -->
+    <title>Сторублевцев Артём Александрович — Увлечения</title> <!-- Заголовок вкладки -->
+    <meta name="description" content="Хобби студента: футбол, фотография, музыка. Краткие карточки и описания." />
+    <!-- Описание страницы -->
+    <meta property="og:title" content="Сторублевцев Артём Александрович — Увлечения" /> <!-- OG заголовок -->
+    <meta property="og:description" content="Карточки хобби: футбол, фотография, музыка." /> <!-- OG описание -->
+    <meta name="theme-color" content="#0a84ff" /> <!-- Цвет темы браузера -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo.png" /> <!-- Иконка сайта -->
+    <link rel="stylesheet" href="css/styles.css" /> <!-- Подключение стилей -->
+</head>
+
+<body class="fade-in"> <!-- Плавное появление -->
+    <a class="skip-link" href="#main">Перейти к основному содержимому</a> <!-- Быстрый переход для клавиатуры -->
+
+    <header class="site-header" role="banner"> <!-- Шапка и меню -->
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="На главную"> <!-- Бренд и ссылка на главную -->
+                <img src="http://127.0.0.1:5500/assets/logo.png" alt="Логотип" width="36" height="36"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;36&quot; height=&quot;36&quot;&gt;&lt;rect width=&quot;100%25&quot; height=&quot;100%25&quot; fill=&quot;%230a84ff&quot;/&gt;&lt;text x=&quot;50%25&quot; y=&quot;50%25&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-size=&quot;10&quot; fill=&quot;black&quot;&gt;LOGO&lt;/text&gt;&lt;/svg&gt;';" />
+                <span>Сторублевцев Артём Александрович</span>
+            </a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Меню">
+                <!-- Кнопка мобильного меню -->
+                <span class="menu-icon" aria-hidden="true"></span>
+            </button>
+            <nav id="site-nav" class="site-nav" role="navigation" aria-label="Основная навигация"> <!-- Главное меню -->
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">Обо мне</a></li>
+                    <li><a href="studies.html">Учёба</a></li>
+                    <li><a class="active" href="hobbies.html">Увлечения</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="site-main"> <!-- Основной контент страницы -->
+        <section class="container">
+            <h1>Увлечения</h1> <!-- Заголовок страницы -->
+            <p>Несколько хобби, которые помогают развиваться и отдыхать.</p>
+
+            <div class="cards hobbies"> <!-- Карточки хобби -->
+                <article class="card hobby">
+                    <div class="icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" role="img"
+                            aria-label="Футбол"> <!-- Иконка: футбол -->
+                            <path
+                                d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm3.5 5.1 2.2 1.6-.8 2.6-2.6.2-1.4-2.2 1.6-2.2zM8.5 7.1 10.1 9.3 8.7 11.5l-2.6-.2-.8-2.6 2.2-1.6zM12 9.2l1.5 2.3-1.5 2.3-1.5-2.3L12 9.2zm-4.1 6.9 2.6-.2 1.4 2.2-1.6 2.2-2.2-1.6-.2-2.6zm8.2 0-.2 2.6-2.2 1.6-1.6-2.2 1.4-2.2 2.6.2z" />
+                        </svg>
+                    </div>
+                    <h2>Футбол</h2> <!-- Название хобби -->
+                    <p>Играю на позиции полузащитника. Люблю командную работу и динамику спорта.</p>
+                </article>
+
+                <article class="card hobby">
+                    <div class="icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" role="img"
+                            aria-label="Фотография"> <!-- Иконка: фотография -->
+                            <path
+                                d="M4 7h3l1-2h8l1 2h3a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2zm8 3a5 5 0 1 0 .001 10.001A5 5 0 0 0 12 10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" />
+                        </svg>
+                    </div>
+                    <h2>Фотография</h2>
+                    <p>Снимаю пейзажи и портреты, обрабатываю снимки, изучаю композицию.</p>
+                </article>
+
+                <article class="card hobby">
+                    <div class="icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" role="img"
+                            aria-label="Музыка"> <!-- Иконка: музыка -->
+                            <path d="M9 3v12.26A3.99 3.99 0 1 0 11 19V8h8V3H9z" />
+                        </svg>
+                    </div>
+                    <h2>Музыка</h2>
+                    <p>Играю на гитаре, слушаю рок и джаз, посещаю концерты.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo"> <!-- Подвал сайта -->
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Сторублевцев Артём Александрович · ЛР №1</p> <!-- Год подставляет JS -->
+            <a class="to-top" href="#top">Наверх</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script> <!-- Скрипты страницы -->
+</body>
+
+</html>

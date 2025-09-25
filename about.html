@@ -1,0 +1,94 @@
+<!doctype html> <!-- Объявление HTML5 -->
+<html lang="ру"> <!-- Язык документа: русский -->
+
+<head> <!-- Метаданные и подключения -->
+    <meta charset="utf-8" /> <!-- Кодировка UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Масштаб для мобильных -->
+    <link rel="canonical" href="http://127.0.0.1:5500/lr1-site/about.html" /> <!-- Канонический URL страницы -->
+    <title>Сторублевцев Артём Александрович — Обо мне</title> <!-- Заголовок вкладки -->
+    <meta name="description" content="О студенте РГРТУ ФВТ-345: образование, направление, будущая профессия." />
+    <!-- Описание страницы -->
+    <meta property="og:title" content="Сторублевцев Артём Александрович — Обо мне" /> <!-- OG заголовок -->
+    <meta property="og:description" content="Расширенная информация: ВУЗ, факультет, группа, профессия." />
+    <!-- OG описание -->
+    <meta name="theme-color" content="#0a84ff" /> <!-- Цвет темы браузера -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo.png" /> <!-- Иконка сайта -->
+    <link rel="stylesheet" href="css/styles.css" /> <!-- Подключение общих стилей -->
+</head>
+
+<body class="fade-in"> <!-- Плавное появление -->
+    <a class="skip-link" href="#main">Перейти к основному содержимому</a> <!-- Быстрый переход для клавиатуры -->
+
+    <header class="site-header" role="banner"> <!-- Шапка и навигация -->
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="На главную"> <!-- Лого+название, ссылка на главную -->
+                <img src="http://127.0.0.1:5500/assets/logo.png" alt="Логотип" width="36" height="36"
+                    onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;36&quot; height=&quot;36&quot;&gt;&lt;rect width=&quot;100%25&quot; height=&quot;100%25&quot; fill=&quot;%230a84ff&quot;/&gt;&lt;text x=&quot;50%25&quot; y=&quot;50%25&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-size=&quot;10&quot; fill=&quot;black&quot;&gt;LOGO&lt;/text&gt;&lt;/svg&gt;';" />
+                <span>Сторублевцев Артём Александрович</span> <!-- Имя/бренд сайта -->
+            </a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Меню">
+                <span class="menu-icon" aria-hidden="true"></span>
+            </button>
+            <nav id="site-nav" class="site-nav" role="navigation" aria-label="Основная навигация"> <!-- Меню сайта -->
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a class="active" href="about.html">Обо мне</a></li>
+                    <li><a href="studies.html">Учёба</a></li>
+                    <li><a href="hobbies.html">Увлечения</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> <!-- Конец шапки -->
+
+    <main id="main" class="site-main"> <!-- Основной контент страницы -->
+        <section class="container narrow">
+            <h1>Обо мне</h1> <!-- Заголовок страницы -->
+            <p>
+                Меня зовут <strong>Сторублевцев Артём Александрович</strong>. Я студент РГРТУ, направление
+                «Информатика и вычислительная техника», <strong>группа ФВТ-345</strong>.
+                Моя будущая профессия — <strong>программный инженер</strong>.
+            </p> <!-- Краткое представление -->
+
+            <div class="info-grid">
+                <div class="info-item"><span>ВУЗ</span><strong>РГРТУ</strong></div> <!-- Карточка: ВУЗ -->
+                <div class="info-item"><span>Факультет/направление</span><strong>ИВТ</strong></div>
+                <div class="info-item"><span>Группа</span><strong>ФВТ-345</strong></div>
+                <div class="info-item"><span>Профессия</span><strong>Будущий программный инженер</strong></div>
+            </div>
+
+            <h2>Образование</h2> <!-- Раздел об образовании -->
+            <ul class="list">
+                <li>Среднее общее образование (школа №123, г. Примерск)</li>
+                <li>Высшее образование (бакалавриат), РГРТУ, ИВТ, 2021–2025</li>
+            </ul>
+
+            <h2>Навыки</h2> <!-- Список ключевых навыков -->
+            <ul class="tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+            </ul>
+
+            <p class="note" role="note"> <!-- Примечание для учебной работы -->
+                Эта страница — пример для ЛР №1. Замените данные на свои при необходимости.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo"> <!-- Подвал сайта -->
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Сторублевцев Артём Александрович · ЛР №1</p>
+            <!-- Текущий год подставляет JS -->
+            <a class="to-top" href="#top">Наверх</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script> <!-- Скрипты: меню, год -->
+    <!-- Где менять данные:
+  - Имя/ВУЗ/группа/профессия — в блоках выше.
+-->
+</body> <!-- Конец тела документа -->
+
+</html>
